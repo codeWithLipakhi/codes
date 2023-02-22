@@ -2,7 +2,8 @@ package practice_project;
 
 public class c {
 
-	 //  static m0() {} we can not declare a method only static but we can declare a method static with a return type
+	 //  static m0() {} 
+	//we can not declare a method only static but we can declare a method static with a return type ,like M1() method below
 	
 	
 	static void M1() {
@@ -12,7 +13,8 @@ public class c {
 		
 	}
 	
-	// public  M0() {} we can not declare a method only public but we can declare a method public with a return type
+	// public  M0() {} we can not declare a method only public 
+	//but we can declare a method public with a return type , like m1() method below
 	
 	public void m1() {
 		M2();
@@ -20,14 +22,16 @@ public class c {
 		System.out.println("f="+f);
 		
 	}
-	 // but we can declare a method only void that is a return type
+	 // but we can declare a method only by void that is a return type
 	void m2() {
 		M2();
 		float g=3.9f;
 		//float h=3.2; not possible to assign a bigger value to smaller data type 
 		System.out.println("g="+g);
 	}
-	// public static m0() {} we can not declare a method public static only and we can declare it with return type 
+	// public static m0() {}. We can not declare a method using only public static keyword
+	//but we can declare it with return type  like public static void m0()
+	
 	// changing the keyword does not make any difference
 	static public void m3() {
 		M2();
