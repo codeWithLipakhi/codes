@@ -34,7 +34,7 @@ public class c {
 	
 	// changing the keyword does not make any difference
 	static public void m3() {
-		M2();
+		//M2();
 		String s="clear the output";
 		System.out.println("s="+s);
 	}
